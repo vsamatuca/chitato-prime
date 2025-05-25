@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/FavIcon.ico" type="image/x-icon">
+    <title>Formulário / Candidato</title>
+    <link rel="stylesheet" type="text/css" href="pag-candidato-style.css">
+</head>
+<body>
+    <div class="formulario-box">
+        <h2>Formulário</h2>
+        <form id="form">
+            <div class="g-recaptcha" data-sitekey="<KEY_1>"></div>
+                
+            <input type="text" placeholder="Nome Completo" class="required" oninput="nameValidade()">
+            <span class="span-required">Nome inválido!</span>
+
+            <input type="email" placeholder="Digite seu E-mail" class="required" oninput="emailValidate()">
+            <span class="span-required">Digite um email válido!</span>
+
+            <input type="text" placeholder="Morada" class="required" oninput="liveValidate()">
+            <span class="span-required">Digite a sua morada</span>
+
+            <p>Sexo:</p>
+            <div class="box-select">
+                <div>
+                    <input type="radio" id="m" value="m" name="sexo">
+                    <label for="m">Masculino</label>
+                </div>
+                <div>
+                    <input type="radio" id="f" value="f" name="sexo">
+                    <label for="f">Feminino</label>
+                </div>
+            </div>
+                
+            <input type="password" placeholder="Senha" class="required" oninput="mainPasswordValidade()">
+            <span class="span-required">Senha deve ter no mínimo 8 dígitos</span>
+
+            <input type="password" placeholder="Confirmar senha" class="required" oninput="comparePasswordValidade()">
+            <span class="span-required">Senhas devem ser compatíveis</span>
+            
+            <input type="submit" value="Enviar">
+
+            <div id="html_element"></div>
+        </form>
+        <a href="index.html">Voltar a página principal</a>
+    </div>
+</body>
+
+<script src="pag-candidato-function.js"></script>
+
+<script type="text/javascript">
+    var onloadCallback = function(){
+        grecaptcha.render('html_element',{
+            'sitekey':'<KEY_1>'
+        });
+    };
+</script>
+</html>

@@ -1,0 +1,7 @@
+Essa é uma plataforma digital que se especializa em conectar empresas que procuram candidatos qualificados como pessoas que estão em busca de uma oportunidade de emprego. Sendo assim, permite que as empresas publiquem suas vagas abertas e que os candidatos encontrem vagas que correspondem as suas habilidades e interesses.
+
+O Chitato Prime é uma alternativa eficaz para empresas e candidatos que procuram agilizar o processo de recrutamento e seleção de candidatos. Além disso, fornece acesso a inúmeras oportunidades de emprego em um só lugar. Com inúmeras vagas disponíveis em diversas áreas de atuação, o portal é uma ferramenta valiosa tanto para as empresas que procuram candidatos qualificados, quanto para os candidatos que procuram novas oportunidades de emprego.
+
+Com base nos objetivos específicos alcançados, pode-se concluir que o desenvolvimento do Portal de Empregabilidade web para o Município do Chitato representa um avanço significativo na promoção da empregabilidade local. Os fundamentos teóricos foram devidamente contextualizados, permitindo um entendimento sólido sobre a necessidade e os benefícios de uma plataforma digital voltada à busca de oportunidades de trabalho.
+
+Além disso, a criação de uma plataforma intuitiva e acessível garantiu que usuários de diferentes níveis de experiência tecnológica pudessem navegar e utilizar os recursos sem dificuldades. O design e a funcionalidade foram planejados para atender às necessidades do público-alvo, promovendo a inclusão digital e facilitando o acesso às informações de emprego.
